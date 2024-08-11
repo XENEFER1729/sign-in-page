@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading{
+    text-align: center;
+    min-width: 500px;
+}
+.heading2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    background-color: rgba(242,247,248);
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70vh;
+    min-width:500px ;
+    max-width:500px ;
+    
+}
+
+.container1-1{
+    
+    margin-top: -20px;
+    gap: 20px;
+    max-width: 65vh;
+    min-width: 65vh;
+    margin-left: 20px;
+    flex-direction: row;
+}
+
+.form_control{
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.name,.email,.password,.age{
+    margin: 0px;
+    margin-bottom: 15px;
+    min-height: 30px;
+    max-height: 30px;
+    min-width: 60vh;
+    max-width: 60vh;
+    background-color: rgb(232,237,240);
+    border: none;
+    
+}
+.container1-2{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    min-width: 65vh;
+    max-width: 65vh;
+
+}
+
+.form_control2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 62vh;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea{
+    height: 50px;
+
+}
+
+.interest{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup{
+    height: 50px;
+}
+.signbutton{
+    margin-top: 10px;
+    height: 50px;
+    width: 61vh;
+    background-color: rgb(31, 186, 31);
+    border: none;
+    border-radius: 3px;
+    box-shadow: 2px 2px 3px rgb(175, 111, 111);
+}
+.signbutton:hover{
+    transform: scale3d(1.05,1.05,1.05);
+}
+
+.bio{
+    background-color: rgb(232,237,240);
+    border: none;
+}
+.jobrole{
+    background-color: rgb(232,237,240);
+    border: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image1{
+    background-color: black;
+    height: 20px;
+    border-radius: 50%;
+    gap: 10px;
+    margin-right: 5px;
+}
+
